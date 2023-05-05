@@ -1,0 +1,220 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif !important;
+}
+
+header {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.hero {
+  background-color: #f8f9fa;
+  height: 100vh;
+  padding: 100px 0;
+}
+
+.hero-heading {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.lead {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.hero-form {
+  width: 100%;
+}
+/* Style the call-to-action button */
+.cta {
+    background-color: #fff;
+    color: #333;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.cta:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style the navigation links */
+header nav ul {
+    display: flex;
+    justify-content: center; /* Add this line to center the links */
+    list-style: none;
+}
+
+header nav ul li {
+    margin-right: 1rem;
+}
+
+header nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    color: #666;
+}
+
+.jobs {
+  text-align: center;
+}
+
+.job-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.job-card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.job-card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.job-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.job-card p {
+  margin-bottom: 5px;
+}
+
+.job-card .job-type {
+  font-weight: bold;
+  color: #4CAF50;
+  margin-bottom: 5px;
+}
+
+.job-card .job-location {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.job-card .job-salary {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.job-card .job-salary span {
+  display: inline-block;
+  width: 120px;
+  font-weight: normal;
+  color: #777;
+}
+
+.job-card .job-description {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.job-card button {
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.job-card button:hover {
+  background-color: #3e8e41;
+}
+
+#show-more{
+  background-color: #609662;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.about {
+    background-color: #f2f2f2;
+    padding: 3rem 0;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-content h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .about-content p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    color: #666;
+  }
+  
+  .about-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .about-button:hover {
+    background-color: #333;
+    color: #fff;
+  }
